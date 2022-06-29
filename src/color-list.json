@@ -1,0 +1,23 @@
+[
+  {
+    "hex": "#00c4e2",
+    "name": "Hurry",
+    "description": "A",
+    "rating": 5,
+    "time": "34"
+  },
+  {
+    "hex": "#01c4f2",
+    "name": "Burry",
+    "description": "B",
+    "rating": 1,
+    "time": "56"
+  },
+  {
+    "hex": "#a0c8ed",
+    "name": "Purry",
+    "description": "C",
+    "rating": 3,
+    "time": "27"
+  }
+]
