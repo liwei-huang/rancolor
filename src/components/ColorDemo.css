@@ -1,0 +1,39 @@
+.color-demo {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.color-demo div {
+  width: 12em;
+  height: 12em;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: var(--rgb);
+  filter: drop-shadow(6px 6px 8px var(--rgb));
+  transition: background 0.5s ease-in;
+}
+
+.color-demo b {
+  font-size: 1.2em;
+  color: var(--rgb);
+}
+
+.color-demo button {
+  max-width: 120px;
+  align-self: center;
+  margin: 1em 0;
+  padding: 0.6em 0.8em;
+  cursor: pointer;
+  border: none;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+}
+
+.color-demo button:hover {
+  transform: scale(1.05);
+}

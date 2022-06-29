@@ -1,0 +1,71 @@
+.edit-color {
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+.edit-color p {
+  margin: 0;
+}
+
+.edit-color input {
+  width: 12em;
+  padding: 0.2em 0.4em;
+}
+
+.edit-color textarea {
+  resize: none;
+  font-family: inherit;
+  font-size: small;
+}
+
+@media (max-width: 540px) and (min-width: 380px) {
+  .edit-color {
+    font-size: 16px;
+  }
+
+  .edit-color textarea {
+    width: 300px;
+  }
+}
+
+@media (max-width: 380px) and (min-width: 325px) {
+  .edit-color {
+    font-size: 14px;
+  }
+
+  .edit-color textarea {
+    width: 220px;
+  }
+}
+
+@media (max-width: 325px) {
+  .edit-color {
+    font-size: 12px;
+  }
+
+  .edit-color textarea {
+    width: 140px;
+  }
+}
+
+.edit-color button {
+  border: none;
+  margin-top: 0.6em;
+  margin-right: 1.2em;
+  padding: 0.2em 0.6em;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-color button:hover {
+  filter: brightness(1.2);
+}
+
+.edit-color button[type='reset'] {
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.edit-color button[type='submit'] {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}

@@ -1,0 +1,30 @@
+.empty-list i {
+  margin-right: 0.6em;
+  color: #f94a2e;
+  font-size: 40px;
+}
+
+.empty-list span {
+  display: inline-block;
+  transform: translateY(-8px);
+}
+
+.color-list-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color-list-sort select {
+  padding: 2px 4px;
+}
+
+.color-list-sort i.bi-arrow-left-right {
+  font-size: 1.2em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.color-list-sort i.bi-arrow-left-right:hover {
+  color: #f94a2e;
+}

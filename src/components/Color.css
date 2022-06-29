@@ -1,0 +1,50 @@
+.color-item {
+  display: flex;
+}
+
+.color-block {
+  flex: 1;
+  width: 200px;
+}
+
+.color-info {
+  flex: 4;
+  padding: 1em;
+}
+
+.color-info h2 {
+  margin: 0.4em 0;
+}
+
+.color-description {
+  margin: 1em 0;
+}
+
+.color-info>i {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.color-info>i:hover {
+  color: #f94a2e;
+}
+
+.color-info dialog {
+  margin: 0 auto;
+  position: absolute;
+}
+
+.color-info dialog i.bi-x-square {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.color-info dialog i.bi-x-square:hover {
+  color: #f94a2e;
+}

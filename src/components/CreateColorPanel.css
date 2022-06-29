@@ -1,0 +1,23 @@
+.create-color-panel {
+  flex: 2;
+}
+
+.create-color-panel code {
+  font-family: Consolas;
+  font-size: smaller;
+  background-color: #ed2650;
+  margin-left: 0.6em;
+  padding: 2px 4px;
+  color: white;
+  border-radius: 4px;
+}
+
+.create-color-panel i.bi-clipboard {
+  font-size: 1em;
+  margin-left: 0.6em;
+  cursor: pointer;
+}
+
+.create-color-panel i.bi-clipboard:hover {
+  color: #ed2650;
+}
